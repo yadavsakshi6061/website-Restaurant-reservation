@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <div class="marquee-container">
+        <marquee>Welcome to Our Exquisite Restaurant - RESERVE YOUR TABLE NOW!</marquee>
+    </div>
+    
+    <div class="container">
+        <div id="home-page" class="home-page">
+            <div class="background-image"></div>
+            <div class="content">
+                <!-- Left Side Image -->
+                <div class="left-image">
+                    <img src="left2.jpg" alt="Left Image">
+                </div>
+                <!-- Right Side Form -->
+                <div class="right-form">
+                    <form id="Restaurant-reservation-form" class="form" action="index5b.html">
+                        <h2>Reservation Form</h2>
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" name="full-name" placeholder="Enter First and Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter Email ex:yourname@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="reservation-date">Reservation Date</label>
+                            <input type="date" id="reservation-date" name="reservation-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="table-number">Table Number</label>
+                            <input type="number" id="table-number" name="table-number" placeholder="Enter Table NumberS">
+                        </div>
+                        <div class="form-group">
+                            <label for="other-specification">Other Specification</label>
+                            <textarea id="other-specification" name="other-specification" placeholder="Enter Any Other Specification"></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
